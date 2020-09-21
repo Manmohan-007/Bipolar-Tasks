@@ -1,0 +1,91 @@
+.RightSideWrapper{
+
+margin-left:96px;
+margin-top:50px ; 
+width : 45% ; 
+} 
+.MainBoxWrapper1{
+border-radius: 10px;
+background: linear-gradient(45deg, #2B0CA4 0%, #2388CB 49%, #144E75 100%);
+color: white; 
+width : 45% ; 
+padding: 8px 15px; 
+font-size: 20px;
+margin:10px ; 
+} 
+.Upperline{ 
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 13px; 
+    font-size: 18px; 
+    font-weight: 500;
+} 
+.BoxesWrapper{
+width: 100%;
+display: flex; 
+flex-wrap: wrap;
+} 
+.Secondline{
+text-align: start;
+margin-bottom: 13px; 
+font-size: 32px;
+font-weight: 700;
+} 
+.Thirdline{
+
+text-align: start;
+font-size: 14px;
+font-weight: 600;
+} 
+.MainBoxWrapper2{
+    border-radius: 10px;
+    background: linear-gradient(45deg, #2FFF74 0%, #55CB34 61%, #144E75 100%);  
+    color: white; 
+    width : 45% ; 
+    padding: 8px 15px; 
+    font-size: 20px;
+    margin:10px ; 
+    } 
+.MainBoxWrapper3{
+        border-radius: 10px;
+        background: #FFCD44;
+        background: linear-gradient(45deg, #FFCD44 0%, #FF8B20 40%, #FF8B1B 100%);
+        color: white; 
+        width : 45% ; 
+        padding: 8px 15px; 
+        font-size: 20px;
+        margin:10px ; 
+        } 
+.MainBoxWrapper4{
+            border-radius: 10px;
+            background: #FF0479;
+            background: linear-gradient(45deg, #FF0479 0%, #FF1D9A 31%, #D432FF 100%);        
+            color: white; 
+            width : 45% ; 
+            padding: 8px 15px; 
+            font-size: 20px;
+            margin:10px ; 
+            } 
+    
+.ChartWrapper {
+border: 1px solid grey ; 
+border-radius: 10px; 
+height : 500px ; 
+margin-top: 30px;
+}
+
+.PieChart{
+
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 25px;
+}
+
+.PieChartBorder{
+border: 1px solid black; 
+opacity: 0.2;
+
+}        
+        
+       

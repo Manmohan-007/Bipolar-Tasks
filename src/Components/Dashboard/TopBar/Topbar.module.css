@@ -1,0 +1,71 @@
+.MainWrapper{
+    width:100% ;  
+    height: 45px;
+    background-color: whitesmoke; 
+    box-shadow: 2px 2px 4px #ccc; 
+    padding : 0 20px ; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+} 
+*{
+    box-sizing: border-box;
+} 
+.LeftLogoWrapper{
+
+display: flex; 
+align-items: center;
+} 
+.IconWrap{
+    font-size: 25px; 
+    margin-right: 10px; 
+    font-weight: 600;
+} 
+.ImgWrapper{
+    width : 25px ; 
+    height : 25px; 
+} 
+.ImgWrapper > img {
+    width : 100% ; 
+    height : 100% ; 
+} 
+.RigthItemsWrapper{
+display: flex;
+align-items: center; 
+} 
+.IconWrap{
+    margin-right: 10px;
+} 
+.ImgWrapper{
+    margin-right: 10px; 
+} 
+.LeftLogoWrapper h3 {
+margin-right: 10px; 
+}  
+.UserImg{
+height: 30px;
+width: 30px; 
+margin-right: 20px; 
+cursor: pointer;
+}
+.RigthItemsWrapper>svg{
+    font-size: 17px; 
+    margin-right: 18px; 
+    font-weight: 600; 
+    margin-right: 27px; 
+    color: grey; 
+    cursor: pointer;
+
+} 
+.UserImg>img {
+    width: 100%; 
+    height:100% ; 
+    border-radius: 50%;
+} 
+.RigthItemsWrapper > h3 {
+    color:grey ; 
+    font-weight: 500;
+    margin-right : 10px ; 
+    cursor: pointer; 
+    font-size: 17px;
+}
