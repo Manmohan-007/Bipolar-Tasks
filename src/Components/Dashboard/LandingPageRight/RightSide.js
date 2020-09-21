@@ -8,7 +8,7 @@ export class RightSide extends Component {
 
 
     render() {
-      
+   
      const state =
         {
          labels: ['Active', 'Hold', 'Closed'],
@@ -83,11 +83,14 @@ export class RightSide extends Component {
             </div>     
             <div className={classes.PieChartBorder}></div>  
              <div>
-             <Pie data={state} options={{title:{display:true,text:"",fontSize:18}
+             <Pie data={state} options={{title:{display:true,text:"",fontSize:18 }
              
             ,legend:{
                 display:true,
-                position:'right'
+                position:'top', labels :{
+                    usePointStyle : true , padding : 40   
+                } 
+                
               } }}/>
 
             </div>    
